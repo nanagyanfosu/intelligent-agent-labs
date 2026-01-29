@@ -1,9 +1,3 @@
-"""SensorAgent for Lab 2 — periodically monitors environment events.
-
-This script provides a simple asyncio-based SensorAgent that consumes events
-from an environment-driven queue and logs them to console and a log file.
-"""
-
 import asyncio
 import logging
 from logging.handlers import RotatingFileHandler
@@ -21,7 +15,6 @@ def setup_logger(logfile: str = DEFAULT_LOGFILE) -> logging.Logger:
         fmt = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
         handler.setFormatter(fmt)
         logger.addHandler(handler)
-        # Also add console handler
         ch = logging.StreamHandler()
         ch.setFormatter(fmt)
         logger.addHandler(ch)
@@ -38,13 +31,13 @@ class SensorAgent:
         """Wait for a single event (with timeout)."""
         try:
             ev = await asyncio.wait_for(self.queue.get(), timeout)
-            # produce a concise log line
+           
             self.logger.info(f"EVENT type={ev['type']} severity={ev['severity']} location={ev['location']} id={ev['id']}")
-            # Optionally, we can also print the same short messages for the lab
+            
             print(f"[Sensor] Detected {ev['type']} severity={ev['severity']} at {ev['location']}")
             return ev
         except asyncio.TimeoutError:
-            # no event in this cycle
+            
             return None
 
     async def monitor(self, cycles: int = 10, timeout: float = 0.5):
@@ -63,7 +56,7 @@ async def demo_run(duration: float = 5.0):
     env = Environment(seed=1, base_probability=0.4)
     sensor = SensorAgent(q)
 
-    # Start env and sensor
+    
     env_task = asyncio.create_task(env.run(q, interval=0.5, duration=duration))
     sensor_task = asyncio.create_task(sensor.monitor(cycles=int(duration / 0.5) + 2, timeout=0.6))
 
