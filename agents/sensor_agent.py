@@ -27,8 +27,7 @@ class SensorAgent:
         self.logger = logger or setup_logger()
         self.running = False
 
-    async def monitor_once(self, timeout: float = 1.0):
-        """Wait for a single event (with timeout)."""
+    async def monitor_once(self, timeout: float = 1.0):        
         try:
             ev = await asyncio.wait_for(self.queue.get(), timeout)
            
@@ -41,7 +40,6 @@ class SensorAgent:
             return None
 
     async def monitor(self, cycles: int = 10, timeout: float = 0.5):
-        """Run monitor for a number of cycles (fast for demo)."""
         self.running = True
         for _ in range(cycles):
             await self.monitor_once(timeout=timeout)

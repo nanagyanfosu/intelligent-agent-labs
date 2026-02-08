@@ -1,0 +1,46 @@
+2026-02-08 13:43:46,588 - INFO - [ResponseAgent-1] System online - monitoring...
+2026-02-08 13:43:46,889 - INFO - [ResponseAgent-1] Alert: fire at Circle (level 2)
+2026-02-08 13:43:46,889 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:46,889 - INFO - [ResponseAgent-1] Plan: Assess damage at Circle
+2026-02-08 13:43:46,889 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:46,990 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:46,990 - INFO - [ResponseAgent-1] Situation safe - no major action needed
+2026-02-08 13:43:47,190 - INFO - [ResponseAgent-1] Alert: earthquake at Madina (level 5)
+2026-02-08 13:43:47,190 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:47,190 - INFO - [ResponseAgent-1] Plan: Assess damage at Madina
+2026-02-08 13:43:47,190 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:47,290 - INFO - [ResponseAgent-1] Sending response team
+2026-02-08 13:43:47,291 - INFO - [ResponseAgent-1] Damage confirmed - sending rescue to Madina
+2026-02-08 13:43:47,391 - INFO - [ResponseAgent-1] Recovery in progress
+2026-02-08 13:43:47,441 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:47,791 - INFO - [ResponseAgent-1] Alert: earthquake at Circle (level 2)
+2026-02-08 13:43:47,791 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:47,791 - INFO - [ResponseAgent-1] Plan: Assess damage at Circle
+2026-02-08 13:43:47,791 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:47,892 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:47,892 - INFO - [ResponseAgent-1] Situation safe - no major action needed
+2026-02-08 13:43:48,392 - INFO - [ResponseAgent-1] Alert: flood at Krofrom (level 5)
+2026-02-08 13:43:48,392 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:48,392 - INFO - [ResponseAgent-1] Plan: Assess damage at Krofrom
+2026-02-08 13:43:48,393 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:48,493 - INFO - [ResponseAgent-1] Sending response team
+2026-02-08 13:43:48,493 - INFO - [ResponseAgent-1] Damage confirmed - sending rescue to Krofrom
+2026-02-08 13:43:48,593 - INFO - [ResponseAgent-1] Recovery in progress
+2026-02-08 13:43:48,644 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:48,693 - INFO - [ResponseAgent-1] Alert: wind at Nima (level 3)
+2026-02-08 13:43:48,693 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:48,693 - INFO - [ResponseAgent-1] Plan: Assess damage at Nima
+2026-02-08 13:43:48,693 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:48,794 - INFO - [ResponseAgent-1] Sending response team
+2026-02-08 13:43:48,794 - INFO - [ResponseAgent-1] Damage confirmed - sending rescue to Nima
+2026-02-08 13:43:48,894 - INFO - [ResponseAgent-1] Recovery in progress
+2026-02-08 13:43:48,945 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:49,595 - INFO - [ResponseAgent-1] Alert: stampede at Teshie (level 3)
+2026-02-08 13:43:49,595 - INFO - [ResponseAgent-1] Alert detected - checking details
+2026-02-08 13:43:49,595 - INFO - [ResponseAgent-1] Plan: Assess damage at Teshie
+2026-02-08 13:43:49,596 - INFO - [ResponseAgent-1] Assessing the situation
+2026-02-08 13:43:49,696 - INFO - [ResponseAgent-1] Sending response team
+2026-02-08 13:43:49,696 - INFO - [ResponseAgent-1] Damage confirmed - sending rescue to Teshie
+2026-02-08 13:43:49,796 - INFO - [ResponseAgent-1] Recovery in progress
+2026-02-08 13:43:49,847 - INFO - [ResponseAgent-1] Waiting for alerts
+2026-02-08 13:43:51,604 - INFO - [ResponseAgent-1] Monitoring complete
